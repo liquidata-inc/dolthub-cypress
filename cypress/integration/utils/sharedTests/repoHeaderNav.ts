@@ -48,7 +48,7 @@ export const forkButtonClickFlow = (loggedIn: boolean) =>
 
 export const testDatabaseTab: Expectation = newExpectation(
   "should have repo Database tab",
-  "[data-cy=repo-about-tab]",
+  "[data-cy=repo-databases-tab]",
   newShouldArgs("be.visible"),
 );
 
